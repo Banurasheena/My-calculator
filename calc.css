@@ -1,0 +1,46 @@
+.size{
+    width: 50px;
+    height: 50px;
+    background: white;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: darkkhaki;
+}
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.lina{
+    background-color: crimson;
+    
+}
+.ena{
+    background:purple;
+    
+    
+
+}
+.mart{
+    background:blue;
+    
+
+}
+.tim{
+    background:green;
+    
+    
+}
+div{
+    margin-left: 600px;
+    
+    
+}
+h1{
+    color:crimson;
+    text-align:center;
+    
+}
+body{
+    background:goldenrod;
+}
