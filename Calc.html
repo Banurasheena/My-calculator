@@ -11,7 +11,7 @@
 
     <div>
     <input class="size" type="number" name="" id="first"> + <input class="size" type="number" name="" id="Second">=<button id="answer"></button>
-    <button id="add" onclick="add()" class="lina"> add </button><br><br>
+    <button id="add" onclick="add()"  class="lina"> add </button><br><br>
     
     <input class="size" type="number" name="" id="third"> - <input class="size" type="number" name="" id="forth">=<Button id="result"></Button>
     <Button id="Subtract" onclick="Subtract()"  class="ena"> Subtract </Button><br><br>
@@ -25,7 +25,7 @@
     <script>
 function add(){
     var firstNum = parseInt(document.querySelector('#first').value);
-    var SecondNum=parseInt(document.querySelector('#second').value);
+    var SecondNum=parseInt(document.querySelector('#Second').value);
     var add= document.querySelector('#add');
     var answer= document.querySelector('#answer').innerHTML=firstNum+SecondNum;
     console.log(firstNum + SecondNum);
